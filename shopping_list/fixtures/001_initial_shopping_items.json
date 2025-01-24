@@ -1,0 +1,25 @@
+[
+
+  {
+    "model": "shopping_list.ShoppingItem",
+    "fields": {
+      "name": "Apple",
+      "purchased": true
+    }
+  },
+
+  {
+    "model": "shopping_list.ShoppingItem",
+    "fields": {
+      "name": "Milk",
+      "purchased": true
+    }
+  },
+  {
+    "model": "shopping_list.ShoppingItem",
+    "fields": {
+      "name": "Eagg",
+      "purchased": true
+    }
+  }
+]
