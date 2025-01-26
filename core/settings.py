@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # "drf_material",
-    'drf_redesign',
+    # 'drf_redesign',
     'rest_framework',
     'shopping_list',
 ]

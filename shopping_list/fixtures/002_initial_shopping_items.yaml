@@ -1,8 +1,0 @@
-- model: shopping_list.ShoppingItem
-  fields:
-    name: "Pen"
-    purchased: false
-- model: shopping_list.ShoppingItem
-  fields:
-    name: "Pencil"
-    purchased: true

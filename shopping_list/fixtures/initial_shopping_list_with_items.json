@@ -1,0 +1,66 @@
+[
+  {
+    "model": "shopping_list.shoppinglist",
+    "pk": "537325f4-dbbc-4b9f-b8e5-4f23ee3b04c0",
+    "fields": {
+      "name": "Elektronika"
+    }
+  },
+  {
+    "model": "shopping_list.shoppinglist",
+    "pk": "92f29300-382a-41cf-9d32-7c3814b393bc",
+    "fields": {
+      "name": "Mebel"
+    }
+  },
+  {
+    "model": "shopping_list.shoppinglist",
+    "pk": "aec926f0-ddd9-4445-82c9-3bcd0b61c2d7",
+    "fields": {
+      "name": "Oziq Ovqat"
+    }
+  },
+  {
+    "model": "shopping_list.shoppinglist",
+    "pk": "e1d40595-66db-496b-b7dc-5dedaaa87629",
+    "fields": {
+      "name": "Uy anjomlari"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "31a2a249-5be5-40de-a5eb-bf1b6e051642",
+    "fields": {
+      "name": "Stol",
+      "purchased": false,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "f262865f-0680-436d-9d34-b7122d58357f",
+    "fields": {
+      "name": "Olma",
+      "purchased": false,
+      "shopping_list": "aec926f0-ddd9-4445-82c9-3bcd0b61c2d7"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "f804d047-916c-4cf1-9991-b62a31e9aacd",
+    "fields": {
+      "name": "Kartoshka",
+      "purchased": false,
+      "shopping_list": "aec926f0-ddd9-4445-82c9-3bcd0b61c2d7"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "fa5137ef-cc25-4dc3-9ae2-5f5f51e3a72e",
+    "fields": {
+      "name": "Xon-taxta",
+      "purchased": false,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  }
+]
