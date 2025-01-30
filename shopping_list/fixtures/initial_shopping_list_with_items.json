@@ -28,11 +28,90 @@
     }
   },
   {
+    "model": "shopping_list.shoppinglist",
+    "pk": "ebabb03f-bf6b-4234-beff-3e2862034b3a",
+    "fields": {
+      "name": "Sport"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "06290d01-53b5-4152-a888-2ec151e82d5e",
+    "fields": {
+      "name": "ReadBox",
+      "purchased": true,
+      "shopping_list": "537325f4-dbbc-4b9f-b8e5-4f23ee3b04c0"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "1296d6ce-b28c-408d-8219-31dcf43ca48a",
+    "fields": {
+      "name": "Tesha ustchalik uchun",
+      "purchased": false,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "19698fe4-b3ed-4675-b7d0-c2b3c0a42536",
+    "fields": {
+      "name": "Mix",
+      "purchased": true,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  },
+  {
     "model": "shopping_list.shoppingitem",
     "pk": "31a2a249-5be5-40de-a5eb-bf1b6e051642",
     "fields": {
       "name": "Stol",
+      "purchased": true,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "3383aa74-a6e5-48d1-a30f-a82bdd38cf51",
+    "fields": {
+      "name": "Bolta",
       "purchased": false,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "4795853c-a35e-4d0e-abfd-e9cb3c2ad53c",
+    "fields": {
+      "name": "E-Kalkulator",
+      "purchased": false,
+      "shopping_list": "537325f4-dbbc-4b9f-b8e5-4f23ee3b04c0"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "83876e66-69bc-41e7-ab75-fb1b17f8903e",
+    "fields": {
+      "name": "Arra",
+      "purchased": true,
+      "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "97e8582e-0a5b-4da1-a44a-6e63c8f1957c",
+    "fields": {
+      "name": "Keta",
+      "purchased": true,
+      "shopping_list": "ebabb03f-bf6b-4234-beff-3e2862034b3a"
+    }
+  },
+  {
+    "model": "shopping_list.shoppingitem",
+    "pk": "baa10ead-d86f-4e2a-92f3-d3cfa21d437a",
+    "fields": {
+      "name": "Mix strong",
+      "purchased": true,
       "shopping_list": "e1d40595-66db-496b-b7dc-5dedaaa87629"
     }
   },
@@ -41,7 +120,7 @@
     "pk": "f262865f-0680-436d-9d34-b7122d58357f",
     "fields": {
       "name": "Olma",
-      "purchased": false,
+      "purchased": true,
       "shopping_list": "aec926f0-ddd9-4445-82c9-3bcd0b61c2d7"
     }
   },
