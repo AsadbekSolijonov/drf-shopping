@@ -6,7 +6,7 @@ from shopping_list.models import ShoppingItem, ShoppingList
 class ShoppingItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = ShoppingItem
-        fields = ['id', 'name', 'purchased']
+        fields = ['id', 'name', 'purchased', "shopping_list"]
         read_only_fields = ('id',)
 
 
