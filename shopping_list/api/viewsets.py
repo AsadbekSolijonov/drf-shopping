@@ -1,6 +1,5 @@
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
-from rest_framework.request import Request
 from rest_framework.response import Response
 
 from shopping_list.api.serializers import ShoppingItemSerializer, ShoppingListSerializer
