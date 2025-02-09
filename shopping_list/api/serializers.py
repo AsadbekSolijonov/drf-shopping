@@ -6,8 +6,13 @@ from shopping_list.models import ShoppingItem, ShoppingList
 class ShoppingItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = ShoppingItem
-        fields = ['id', 'name', 'purchased', "shopping_list"]
-        read_only_fields = ('id',)
+        fields = ['id', 'name', 'purchased']
+        read_only_fields = ('id', )
+
+    def create(self, validated_data, **kwargs):
+        print(kwargs)
+        validated_data['shopping_list_id'] = self.context['request'].parser_context['kwargs']['pk']
+        return super().create(validated_data)
 
 
 class ShoppingListSerializer(serializers.ModelSerializer):
