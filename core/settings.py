@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     # 'drf_redesign',
     'rest_framework',
     'shopping_list',
+    "corsheaders",
 ]
 
 REST_FRAMEWORK = {
@@ -55,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -76,6 +79,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
+
+CORS_ORIGIN_ALLOW_ALL = DEBUG
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
